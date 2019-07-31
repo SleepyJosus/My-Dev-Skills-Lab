@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: helvetica;
+}
+
+section {
+    width: 350px;
+}
+
+header {
+    height: 40px;
+    background-color: #9DC284;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #9DC284;
+    
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #9DC284;
+    color: #9DC284;
+    font-weight: bold;
+}
+
+ul button {
+    background-color: #D16D6A;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+ul {
+    color: #F2A74B;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
